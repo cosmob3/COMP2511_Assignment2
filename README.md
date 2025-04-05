@@ -16,9 +16,18 @@
 
 - Document issues you identified in each of the four categories (Perceivable, Operable, Understandable and Robust) as discovered through the manual and automated analyses above.
 
-  ### Perceivable
+  ### Issues
 
   - Adding (required) for labels instead of just having an asterisk (\*)
   - Making sure placeholder text is bold to make it more visible
+  - Logo and Home button on Nav are redundant links
+
+**Not many other issues found manually or by automated analyses**
 
 - Describe the kind of changes you made. Don’t just list them; instead generalize the types of issues that you created when building your website, and then describe the generalized type of changes that you made to resolve those issues
+
+  ### Changes
+
+  - Made the changes needed for the form to make it as clear as possible for what is required
+  - Making placeholder text bold for clarity
+  - Keeping the redundant link as it's not too big of an issue when it comes to navigation
