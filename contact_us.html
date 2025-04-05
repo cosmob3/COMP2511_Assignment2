@@ -63,16 +63,16 @@
             </div>
 
             <label for="fname">
-              First Name*
+              First Name (Required)
               <input type="text" name="fname" id="fname" required autofocus />
             </label>
 
             <label for="lname">
-              Last Name* <input type="text" name="lname" id="lname" required />
+              Last Name <input type="text" name="lname" id="lname" />
             </label>
 
             <label for="phone">
-              Phone*
+              Phone (Required)
               <input
                 type="tel"
                 name="phone"
@@ -84,7 +84,7 @@
             </label>
 
             <label for="email">
-              Email*
+              Email (Required)
               <input
                 type="email"
                 name="email"
@@ -100,11 +100,13 @@
             <legend>Message Us!</legend>
 
             <label for="subject">
-              Subject*
+              Subject (Required)
               <input type="text" id="subject" name="subject" required />
             </label>
 
-            <p for="interest">What are you interested in learning?*</p>
+            <p for="interest">
+              What are you interested in learning? (Required)
+            </p>
             <div class="radio-group">
               <label>
                 <input type="radio" name="interest" value="html" required />
@@ -123,7 +125,7 @@
             </div>
 
             <label for="specialConcerns">
-              Message*
+              Message (Required)
               <textarea
                 name="text"
                 id="specialConcerns"
